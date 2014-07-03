@@ -39,9 +39,18 @@ import Jerimiah.Smith.MyItems.bluemnm;
 import Jerimiah.Smith.MyItems.yellowmnm;
 import Jerimiah.Smith.MyItems.brownmnm;
 import Jerimiah.Smith.MyItems.greenmnm;
+import Jerimiah.Smith.MyItems.solidchocolate;
+
 //MyTools
 import net.minecraftforge.common.util.EnumHelper;
-import Jerimiah.Smith.MyItems.RubySword;
+import Jerimiah.Smith.MyItems.ChocolateSword;
+import Jerimiah.Smith.MyItems.ChocolateHoe;
+import Jerimiah.Smith.MyItems.ChocolateShovel;
+import Jerimiah.Smith.MyItems.ChocolatePickaxe;
+import Jerimiah.Smith.MyItems.ChocolateAxe;
+
+
+
 public class MyCode {
 		
 		
@@ -56,6 +65,16 @@ public class MyCode {
 		public static Item bluemnm;
 		public static Item yellowmnm;
 		public static Item brownmnm;
+		public static Item solidchocolate;
+		public static Item chocolateSword;
+		public static Item chocolateHoe;
+		public static Item chocolatePickaxe;
+		public static Item chocolateAxe;
+		public static Item chocolateShovel;
+		
+		// Creative Tab 
+		public static CreativeTabs tabJerMod = new MyCreativeTab("JerMod");
+		
 		
 		
 		public static void MyBlocks() {
@@ -80,8 +99,8 @@ public class MyCode {
 		//list Items Here #setupITEM
 		
 		//tools
-		public static Item RubySword;
-		public static Item.ToolMaterial RUBY =  EnumHelper.addToolMaterial("RUBY", 3, 800, 8.0F,4.5F, 10);
+		public static Item ChocolateSword;
+		public static Item.ToolMaterial COCOA =  EnumHelper.addToolMaterial("Cocoa", 1, 100, 3.0F,5.5F, 8);
 		
 		
 		public static void MyRecipes() {
@@ -113,11 +132,6 @@ public class MyCode {
 			'A', Items.gunpowder,
 			'B', Items.diamond,
 		});
-		
-		ItemStack dirtStack = new ItemStack(Blocks.dirt);
-		ItemStack diamondStack = new ItemStack(Items.diamond, 64);
-		ItemStack blackWoolStack = new ItemStack(Blocks.wool, 15);
-		GameRegistry.addShapelessRecipe(diamondStack, dirtStack, blackWoolStack ); 
 		
 		GameRegistry.addRecipe(new ItemStack(Items.iron_horse_armor ), new Object[] {
 			"  A",
@@ -175,13 +189,15 @@ public class MyCode {
 			'C', Items.diamond
 		});
 		
+		//chocolate Recipes
 	GameRegistry.addRecipe(new ItemStack(JerBar), new Object[] {
-		"AAA",
-		"ABA", 
+		" B ",
+		"AAA", 
 		"AAA", 
 		'A', meltedchocolate,
 		'B', Items.milk_bucket
 		});
+	
 	
 	GameRegistry.addRecipe(new ItemStack(chocolateBlock), new Object[] {
 		"AAA",
@@ -189,8 +205,100 @@ public class MyCode {
 		"AAA", 
 		'A', meltedchocolate
 		});
+	
+	GameRegistry.addRecipe(new ItemStack(solidchocolate, 2), new Object[] {
+		"BAB",
+		"BAB", 
+		"BAB", 
+		'A', meltedchocolate,
+		'B', Items.snowball 
+		});	
+	
+	GameRegistry.addRecipe(new ItemStack(ChocolateSword), new Object[] {
+		" A ",
+		" A ", 
+		" B ", 
+		'A', chocolateBlock, 
+		'B', Items.stick 
+		});	
+	
+	GameRegistry.addRecipe(new ItemStack(chocolatePickaxe), new Object[] {
+		"AAA",
+		" B ", 
+		" B ", 
+		'A', chocolateBlock, 
+		'B', Items.stick 
+		});	
+	
+	GameRegistry.addRecipe(new ItemStack(chocolateAxe), new Object[] {
+		"AA ",
+		"AB ", 
+		" B ", 
+		'A', chocolateBlock, 
+		'B', Items.stick 
+		});	
+	
+	GameRegistry.addRecipe(new ItemStack(chocolateShovel), new Object[] {
+		" A ",
+		" B ", 
+		" B ", 
+		'A', chocolateBlock, 
+		'B', Items.stick 
+		});	
+	
+	GameRegistry.addRecipe(new ItemStack(chocolateHoe), new Object[] {
+		"AA ",
+		" B ", 
+		" B ", 
+		'A', chocolateBlock, 
+		'B', Items.stick 
+		});	
+	
+	//dyes
+	ItemStack cocoa = new ItemStack(Items.dye);
+	ItemStack red = new ItemStack(Items.dye);
+	ItemStack blue = new ItemStack(Items.dye);
+	ItemStack green = new ItemStack(Items.dye);
+	ItemStack yellow = new ItemStack(Items.dye);
+	ItemStack Meltedchocolate = new ItemStack(meltedchocolate,2);
+	
+	//Item IDs
+	cocoa.setItemDamage(3);
+	red.setItemDamage(1);
+	blue.setItemDamage(4);
+	green.setItemDamage(10);
+	yellow.setItemDamage(11);
+	
+	//Chocolate Shapeless
+			//red
+			ItemStack SC = new ItemStack(solidchocolate);		
+			ItemStack Redmnm = new ItemStack(redmnm);
+			//blue
+			ItemStack Bluemnm = new ItemStack(bluemnm);
+			//green 
+			ItemStack Greenmnm = new ItemStack(greenmnm);
+			//yellow
+			ItemStack Yellowmnm = new ItemStack(yellowmnm);
+			//brown
+			ItemStack Brownmnm = new ItemStack(brownmnm);
+			
+			//shapeless recipes
+			GameRegistry.addShapelessRecipe(Redmnm, red, SC);
+			GameRegistry.addShapelessRecipe(Bluemnm, blue, SC);
+			GameRegistry.addShapelessRecipe(Greenmnm, green, SC);
+			GameRegistry.addShapelessRecipe(Yellowmnm, yellow, SC);
+			GameRegistry.addShapelessRecipe(Brownmnm, cocoa, SC);
+			
+			
 		
-		//stone tools
+	// Ids
+	Meltedchocolate.setItemDamage(0);
+	
+	//Smelting Recipes
+	GameRegistry.addSmelting(cocoa, Meltedchocolate, 0.1f);
+	
+	
+			//stone tools
 				GameRegistry.addSmelting(Items.stone_sword, new ItemStack(Blocks.stone, 2), 0.01F);
 				GameRegistry.addSmelting(Items.stone_axe, new ItemStack(Blocks.stone, 3), 0.01F);
 				GameRegistry.addSmelting(Items.stone_pickaxe, new ItemStack(Blocks.stone, 3), 0.01F);
@@ -217,9 +325,9 @@ public class MyCode {
 				GameRegistry.addSmelting(Blocks.gold_ore, new ItemStack(Items.gold_ingot, 3), 3.50F);
 				GameRegistry.addSmelting(Blocks.diamond_ore, new ItemStack(Items.diamond, 3), 3.50F);
 				
-		ItemStack newEnchantment = new ItemStack(Items.diamond_pickaxe,1);
-		newEnchantment.addEnchantment(Enchantment.fortune, 127);
-		GameRegistry.addSmelting(Items.cookie,newEnchantment, 0.01F);
+		//ItemStack newEnchantment = new ItemStack(Items.diamond_pickaxe,1);
+		//newEnchantment.addEnchantment(Enchantment.fortune, 127);
+		//GameRegistry.addSmelting(Items.cookie,newEnchantment, 0.01F);
 		
 	}
 	public static void MyItems(){
@@ -229,8 +337,20 @@ public class MyCode {
 		//Strawberry
 		Strawberry = new FoodStrawberry(5015, 10, false).setUnlocalizedName("strawberry");
 		
-		//RubySword
-		RubySword = new RubySword(RUBY);
+		//chocolateSword
+		ChocolateSword = new ChocolateSword(COCOA);
+		
+		//chocolateHoe
+		chocolateHoe = new ChocolateHoe(COCOA);
+		
+		//chocolateShovel
+		chocolateShovel = new ChocolateShovel(COCOA);
+		
+		//chocolatePickaxe 
+		chocolatePickaxe = new ChocolatePickaxe(COCOA);
+		
+		//chocolateAxe
+		chocolateAxe = new ChocolateAxe(COCOA);
 		
 		//meltedchocolate
 		meltedchocolate = new meltedchocolate(3, 3, false).setUnlocalizedName("meltedchocolate");
@@ -245,7 +365,7 @@ public class MyCode {
 		greenmnm = new greenmnm(4, 2, false).setUnlocalizedName("greenmnm");
 		
 		//blueM&M
-		bluemmn = new bluemnm(4, 2, false).setUnlocalizedName("bluemnm");
+		bluemnm = new bluemnm(4, 2, false).setUnlocalizedName("bluemnm");
 		
 		//yellowM&M
 		yellowmnm = new yellowmnm(4, 2, false).setUnlocalizedName("yellowmnm");
@@ -253,15 +373,23 @@ public class MyCode {
 		//brownM&M
 		brownmnm = new brownmnm(4, 2, false).setUnlocalizedName("brownmnm");
 		
+		//solidChocolate
+		solidchocolate = new solidchocolate(4, 3, false).setUnlocalizedName("solidchocolate");
+		
 		GameRegistry.registerItem(meltedchocolate, "meltedchocolate");
 		GameRegistry.registerItem(Strawberry, "Strawberry");
 		GameRegistry.registerItem(rubyGem, "rubyGem");
-		GameRegistry.registerItem(RubySword, "RubySword");
+		GameRegistry.registerItem(ChocolateSword, "ChocolateSword");
+		GameRegistry.registerItem(chocolateHoe, "ChocolateHoe");
+		GameRegistry.registerItem(chocolatePickaxe, "ChocolatePickaxe");
+		GameRegistry.registerItem(chocolateShovel, "ChocolateShovel");
+		GameRegistry.registerItem(chocolateAxe, "ChocolateAxe");
 		GameRegistry.registerItem(JerBar, "JerBar");
 		GameRegistry.registerItem(redmnm, "redmnm");
 		GameRegistry.registerItem(greenmnm, "greenmnm");
 		GameRegistry.registerItem(bluemnm, "bluemnm");
 		GameRegistry.registerItem(yellowmnm, "yellowmnm");
 		GameRegistry.registerItem(brownmnm, "brownmnm");
+		GameRegistry.registerItem(solidchocolate, "solidchocolate");
 	}
 }

@@ -1,0 +1,14 @@
+tile.rubyOre.name= Ruby Ore
+tile.chocolateBlock.name= Cocoa Block
+item.rubyGem.name= Ruby Gem
+item.chocolateSword.name= Chocolate Sword
+item.chocolateHoe= Chocolate Hoe
+item.meltedchocolate.name= Melted Chocolate
+item.JerBar.name= Jerbar
+item.redmnm.name= Red M&M
+item.bluemnm.name= Blue M&M
+item.greenmnm.name= Green M&M
+item.brownmnm.name= Brown M&M
+item.yellowmnm.name= Yellow M&M
+item.solidchocolate.name= Solid Chocolate
+itemGroup.JerMod= JerMod

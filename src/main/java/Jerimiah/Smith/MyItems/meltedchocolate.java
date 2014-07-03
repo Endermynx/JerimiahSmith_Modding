@@ -1,5 +1,6 @@
 package Jerimiah.Smith.MyItems;
 
+import Jerimiah.Smith.MyCode;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -8,11 +9,13 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 import net.minecraft.util.IIcon;
+import Jerimiah.Smith.MyCode;
 
 public class meltedchocolate extends ItemFood{
 	public meltedchocolate (int i, int j, boolean b) {
     	super(j,b);
         setUnlocalizedName("meltedchocolate");
+        setCreativeTab(MyCode.tabJerMod);
     }
     //load Icons and Textures Properly 
     @SideOnly(Side.CLIENT)

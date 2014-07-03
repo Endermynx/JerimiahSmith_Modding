@@ -8,11 +8,13 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 import net.minecraft.util.IIcon;
+import Jerimiah.Smith.MyCode;
 
 public class yellowmnm extends ItemFood{
 	public yellowmnm (int i, int j, boolean b) {
     	super(j,b);
         setUnlocalizedName("yellowMNM");
+        setCreativeTab(MyCode.tabJerMod);
     }
     //load Icons and Textures Properly 
     @SideOnly(Side.CLIENT)
