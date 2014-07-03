@@ -1,0 +1,5 @@
+package jerimah.smith.MyBlocks;
+
+public class BaseBlock {
+
+}

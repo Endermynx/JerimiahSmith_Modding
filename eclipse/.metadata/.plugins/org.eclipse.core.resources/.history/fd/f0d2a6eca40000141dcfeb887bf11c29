@@ -1,0 +1,25 @@
+package Jerimiah.Smith;
+
+//Recipes
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class MyCode {
+  
+	public static void MyBlocks(){		
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.lava), new Object[] {Items.magma_cream, 4});
+		
+	}
+		
+	public static void MyRecipes(){
+		
+	}
+	public static void MyItems(){
+		
+	}
+}

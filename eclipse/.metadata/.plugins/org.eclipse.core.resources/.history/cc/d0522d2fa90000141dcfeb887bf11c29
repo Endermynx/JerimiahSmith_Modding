@@ -1,0 +1,54 @@
+package Jerimiah.Smith;
+
+//Recipes
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class MyCode {
+	public static void MyBlocks(){	
+		
+	}
+		
+	public static void MyRecipes(){
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.lava_bucket), new Object[] {Items.magma_cream, 4});
+		/*GameRegistry.addShapelessRecipe(new ItemStack(Items.coal), new Object[] {Blocks.cobblestone, 9});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.flint_and_steel), new Object[] {Blocks.gravel, 4});
+		GameRegistry.addRecipe(new ItemStack(Items.lava_bucket), new Object[] {
+			"ABA",
+			"ACA",
+			"ADA", 
+			'A', Items.flint_and_steel,
+			'B', Blocks.cobblestone,
+			'C', Blocks.torch,
+			'D', Items.bucket,  
+		});
+		GameRegistry.addRecipe(new ItemStack(Blocks.ice), new Object[] {
+			"AAA",
+			"ABA",
+			"AAA", 
+			'A', Items.snowball,
+			'B', Items.water_bucket,
+		});
+		GameRegistry.addRecipe(new ItemStack(Items.tnt_minecart), new Object[] {
+			"BAB",
+			"BAB",
+			"BAB", 
+			'A', Items.gunpowder,
+			'B', Items.iron_ingot,
+		});*/
+		
+		ItemStack dirtStack = new ItemStack(Blocks.dirt);
+		ItemStack diamondStack = new ItemStack(Items.diamond, 64);
+		ItemStack blackWoolStack = new ItemStack(Blocks.wool, 15);
+		GameRegistry.addShapelessRecipe(diamondStack, dirtStack, blackWoolStack ); 
+		
+	}
+	public static void MyItems(){
+		
+	}
+}
