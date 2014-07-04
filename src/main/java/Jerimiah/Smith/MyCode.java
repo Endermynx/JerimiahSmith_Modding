@@ -49,8 +49,6 @@ import Jerimiah.Smith.MyItems.ChocolateShovel;
 import Jerimiah.Smith.MyItems.ChocolatePickaxe;
 import Jerimiah.Smith.MyItems.ChocolateAxe;
 
-
-
 public class MyCode {
 		
 		
@@ -356,7 +354,7 @@ public class MyCode {
 		meltedchocolate = new meltedchocolate(3, 3, false).setUnlocalizedName("meltedchocolate");
 		
 		//Jerbar
-		JerBar = new JerBar(10, 10, false).setUnlocalizedName("JerBar");
+		JerBar = new JerBar(10, 5, false).setUnlocalizedName("JerBar");
 		
 		//RedM&M
 		redmnm = new redmnm(4, 2, false).setUnlocalizedName("redmnm");

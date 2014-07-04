@@ -6,8 +6,13 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
 import Jerimiah.Smith.MyCode;
 
 public class yellowmnm extends ItemFood{
@@ -15,6 +20,7 @@ public class yellowmnm extends ItemFood{
     	super(j,b);
         setUnlocalizedName("yellowMNM");
         setCreativeTab(MyCode.tabJerMod);
+        setPotionEffect(Potion.moveSpeed.id, 5, 1, 1.0F);
     }
     //load Icons and Textures Properly 
     @SideOnly(Side.CLIENT)

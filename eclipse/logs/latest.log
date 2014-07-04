@@ -1,150 +1,117 @@
-[16:25:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:25:13] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[16:25:13] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
-[16:25:13] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-[16:25:13] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:25:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:25:13] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:25:13] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[16:25:13] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[16:25:13] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[16:25:13] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[16:25:13] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:25:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:25:14] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:25:15] [main/INFO]: Setting user: Player254
-[16:25:16] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:25:16] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[16:25:16] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
-[16:25:16] [Client thread/INFO]: Replaced 141 ore recipies
-[16:25:16] [Client thread/INFO]: Completed early MinecraftForge initialization
-[16:25:16] [Client thread/INFO]: Searching /Users/teen/Desktop/JerimiahSmith_Modding/eclipse/mods for mods
-[16:25:17] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[16:25:18] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[16:25:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JerMod
-[16:25:18] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[16:25:19] [Sound Library Loader/INFO]: Sound engine started
-[16:25:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:25:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:25:19] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[16:25:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JerMod
-[16:25:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:25:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:25:21] [Sound Library Loader/INFO]: Sound engine started
-[16:25:22] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[16:25:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[16:25:36] [Server thread/INFO]: Generating keypair
-[16:25:36] [Server thread/INFO]: Converting map!
-[16:25:36] [Server thread/INFO]: Scanning folders...
-[16:25:36] [Server thread/INFO]: Total conversion count is 0
-[16:25:36] [Server thread/INFO]: Injecting new block and item data into this server instance
-[16:25:36] [Server thread/WARN]: Unable to find spawn biome
-[16:25:37] [Server thread/INFO]: Loading dimension 0 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@214fe17)
-[16:25:37] [Server thread/INFO]: Loading dimension 1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@214fe17)
-[16:25:37] [Server thread/INFO]: Loading dimension -1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@214fe17)
-[16:25:37] [Server thread/INFO]: Preparing start region for level 0
-[16:25:38] [Server thread/INFO]: Preparing spawn area: 13%
-[16:25:39] [Server thread/INFO]: Preparing spawn area: 28%
-[16:25:40] [Server thread/INFO]: Preparing spawn area: 44%
-[16:25:41] [Server thread/INFO]: Preparing spawn area: 59%
-[16:25:42] [Server thread/INFO]: Preparing spawn area: 74%
-[16:25:43] [Server thread/INFO]: Preparing spawn area: 88%
-[16:25:44] [Server thread/INFO]: Preparing spawn area: 99%
-[16:25:45] [Netty Client IO #0/INFO]: Server protocol version 1
-[16:25:45] [Netty IO #1/INFO]: Client protocol version 1
-[16:25:45] [Netty IO #1/INFO]: Client attempting to join with 4 mods : JerMod@1.1.1,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049
-[16:25:45] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:25:45] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[16:25:45] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:25:45] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:25:45] [Server thread/INFO]: Player254[local:E:81555040] logged in with entity id 126 at (395.5, 70.0, -381.5)
-[16:25:45] [Server thread/INFO]: Player254 joined the game
-[16:25:47] [Server thread/INFO]: Player254 has just earned the achievement [Taking Inventory]
-[16:25:47] [Client thread/INFO]: [CHAT] Player254 has just earned the achievement [Taking Inventory]
-[16:25:48] [Server thread/INFO]: Saving and pausing game...
-[16:25:48] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:25:50] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:25:50] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
-[16:25:50] [Server thread/INFO]: Stopping server
-[16:25:50] [Server thread/INFO]: Saving players
-[16:25:50] [Server thread/INFO]: Saving worlds
-[16:25:50] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:25:50] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:25:50] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
-[16:25:52] [Server thread/INFO]: Unloading dimension 0
-[16:25:52] [Server thread/INFO]: Unloading dimension -1
-[16:25:52] [Server thread/INFO]: Unloading dimension 1
-[16:25:56] [Client thread/INFO]: Deleting level Hardcore w_ mods
-[16:25:56] [Client thread/INFO]: Attempt 1...
-[16:26:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[16:26:08] [Server thread/INFO]: Generating keypair
-[16:26:09] [Server thread/INFO]: Converting map!
-[16:26:09] [Server thread/INFO]: Scanning folders...
-[16:26:09] [Server thread/INFO]: Total conversion count is 0
-[16:26:09] [Server thread/INFO]: Injecting new block and item data into this server instance
-[16:26:09] [Server thread/WARN]: Unable to find spawn biome
-[16:26:09] [Server thread/INFO]: Loading dimension 0 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@5c849077)
-[16:26:09] [Server thread/INFO]: Loading dimension 1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@5c849077)
-[16:26:09] [Server thread/INFO]: Loading dimension -1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@5c849077)
-[16:26:09] [Server thread/INFO]: Preparing start region for level 0
-[16:26:10] [Server thread/INFO]: Preparing spawn area: 19%
-[16:26:11] [Server thread/INFO]: Preparing spawn area: 36%
-[16:26:12] [Server thread/INFO]: Preparing spawn area: 52%
-[16:26:13] [Server thread/INFO]: Preparing spawn area: 69%
-[16:26:14] [Server thread/INFO]: Preparing spawn area: 83%
-[16:26:15] [Server thread/INFO]: Preparing spawn area: 95%
-[16:26:16] [Netty Client IO #1/INFO]: Server protocol version 1
-[16:26:16] [Netty IO #3/INFO]: Client protocol version 1
-[16:26:16] [Netty IO #3/INFO]: Client attempting to join with 4 mods : JerMod@1.1.1,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049
-[16:26:16] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:26:16] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
-[16:26:16] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:26:16] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:26:16] [Server thread/INFO]: Player254[local:E:87471bcd] logged in with entity id 1935 at (395.5, 70.0, -381.5)
-[16:26:16] [Server thread/INFO]: Player254 joined the game
-[16:27:59] [Server thread/INFO]: Player254 has just earned the achievement [Taking Inventory]
-[16:28:00] [Client thread/INFO]: [CHAT] Player254 has just earned the achievement [Taking Inventory]
-[16:30:35] [Server thread/INFO]: Saving and pausing game...
-[16:30:35] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:30:35] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:30:35] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
-[16:30:36] [Server thread/INFO]: Stopping server
-[16:30:36] [Server thread/INFO]: Saving players
-[16:30:36] [Server thread/INFO]: Saving worlds
-[16:30:36] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:30:36] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:30:36] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
-[16:30:37] [Server thread/INFO]: Unloading dimension 0
-[16:30:37] [Server thread/INFO]: Unloading dimension -1
-[16:30:37] [Server thread/INFO]: Unloading dimension 1
-[16:41:46] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[16:41:46] [Server thread/INFO]: Generating keypair
-[16:41:46] [Server thread/INFO]: Injecting new block and item data into this server instance
-[16:41:46] [Server thread/INFO]: Loading dimension 0 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@6213f9ef)
-[16:41:46] [Server thread/INFO]: Loading dimension 1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@6213f9ef)
-[16:41:46] [Server thread/INFO]: Loading dimension -1 (Hardcore w/ mods) (net.minecraft.server.integrated.IntegratedServer@6213f9ef)
-[16:41:46] [Server thread/INFO]: Preparing start region for level 0
-[16:41:46] [Netty Client IO #2/INFO]: Server protocol version 1
-[16:41:46] [Netty IO #5/INFO]: Client protocol version 1
-[16:41:46] [Netty IO #5/INFO]: Client attempting to join with 4 mods : JerMod@1.1.1,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049
-[16:41:46] [Netty IO #5/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:41:46] [Netty Client IO #2/INFO]: Attempting connection with missing mods [] at SERVER
-[16:41:46] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:41:46] [Server thread/INFO]: Player254[local:E:cc3ae726] logged in with entity id 24683 at (135.18772286028718, 65.0, -493.8071391007899)
-[16:41:46] [Server thread/INFO]: Player254 joined the game
-[16:41:47] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:46:41] [Server thread/INFO]: Player254 has just earned the achievement [Getting Wood]
-[16:46:41] [Client thread/INFO]: [CHAT] Player254 has just earned the achievement [Getting Wood]
-[16:47:26] [Server thread/INFO]: Saving and pausing game...
-[16:47:26] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:47:26] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:47:26] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
-[16:48:25] [Server thread/INFO]: Saving and pausing game...
-[16:48:25] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Overworld
-[16:48:25] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/Nether
-[16:48:25] [Server thread/INFO]: Saving chunks for level 'Hardcore w/ mods'/The End
+[09:26:57] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:26:57] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:26:57] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:26:58] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
+[09:26:58] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+[09:26:58] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[09:26:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:26:58] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:26:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:26:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:26:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:26:58] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[09:26:58] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[09:26:58] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[09:26:58] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[09:26:58] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[09:26:58] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:26:58] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:26:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[09:27:00] [main/INFO]: Setting user: Player512
+[09:27:01] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:27:01] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[09:27:01] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
+[09:27:01] [Client thread/INFO]: Replaced 141 ore recipies
+[09:27:02] [Client thread/INFO]: Completed early MinecraftForge initialization
+[09:27:02] [Client thread/INFO]: Searching /Users/teen/Desktop/JerimiahSmith_Modding/eclipse/mods for mods
+[09:27:03] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[09:27:04] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[09:27:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JerMod
+[09:27:05] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[09:27:06] [Sound Library Loader/INFO]: Sound engine started
+[09:27:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:27:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:27:06] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[09:27:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JerMod
+[09:27:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:27:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:27:08] [Sound Library Loader/INFO]: Sound engine started
+[09:27:09] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[09:27:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[09:27:13] [Server thread/INFO]: Generating keypair
+[09:27:13] [Server thread/INFO]: Injecting new block and item data into this server instance
+[09:27:14] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@2531a042)
+[09:27:14] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@2531a042)
+[09:27:14] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@2531a042)
+[09:27:14] [Server thread/INFO]: Preparing start region for level 0
+[09:27:15] [Server thread/INFO]: Preparing spawn area: 85%
+[09:27:15] [Netty Client IO #0/INFO]: Server protocol version 1
+[09:27:15] [Netty IO #1/INFO]: Client protocol version 1
+[09:27:15] [Netty IO #1/INFO]: Client attempting to join with 4 mods : JerMod@1.1.1,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049
+[09:27:15] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[09:27:15] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[09:27:15] [Client thread/INFO]: [Client thread] Client side modded connection established
+[09:27:15] [Server thread/INFO]: [Server thread] Server side modded connection established
+[09:27:15] [Server thread/INFO]: Player512[local:E:b18ed609] logged in with entity id 354 at (46.99134074358332, 79.1707870772188, 213.25506514134113)
+[09:27:15] [Server thread/INFO]: Player512 joined the game
+[09:27:18] [Server thread/INFO]: Player512 has just earned the achievement [Taking Inventory]
+[09:27:18] [Client thread/INFO]: [CHAT] Player512 has just earned the achievement [Taking Inventory]
+[09:27:20] [Server thread/INFO]: Saving and pausing game...
+[09:27:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:27:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:27:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:27:21] [Server thread/INFO]: Stopping server
+[09:27:21] [Server thread/INFO]: Saving players
+[09:27:21] [Server thread/INFO]: Saving worlds
+[09:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:27:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:27:21] [Server thread/INFO]: Unloading dimension 0
+[09:27:21] [Server thread/INFO]: Unloading dimension -1
+[09:27:21] [Server thread/INFO]: Unloading dimension 1
+[09:27:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[09:27:26] [Server thread/INFO]: Generating keypair
+[09:27:26] [Server thread/INFO]: Injecting new block and item data into this server instance
+[09:27:26] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@48f0aab8)
+[09:27:26] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@48f0aab8)
+[09:27:26] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@48f0aab8)
+[09:27:26] [Server thread/INFO]: Preparing start region for level 0
+[09:27:27] [Netty Client IO #1/INFO]: Server protocol version 1
+[09:27:27] [Netty IO #3/INFO]: Client protocol version 1
+[09:27:27] [Netty IO #3/INFO]: Client attempting to join with 4 mods : JerMod@1.1.1,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049
+[09:27:27] [Netty IO #3/INFO]: Attempting connection with missing mods [] at CLIENT
+[09:27:27] [Netty Client IO #1/INFO]: Attempting connection with missing mods [] at SERVER
+[09:27:27] [Server thread/INFO]: [Server thread] Server side modded connection established
+[09:27:27] [Server thread/INFO]: Player512[local:E:86d91122] logged in with entity id 896 at (47.02286959612189, 78.0, 213.15794181774478)
+[09:27:27] [Server thread/INFO]: Player512 joined the game
+[09:27:27] [Client thread/INFO]: [Client thread] Client side modded connection established
+[09:27:32] [Server thread/INFO]: [Player512: Set own game mode to Creative Mode]
+[09:27:32] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:27:41] [Server thread/INFO]: [Player512: Set own game mode to Survival Mode]
+[09:27:41] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:27:50] [Server thread/INFO]: [Player512: Given Hunger (ID 17) * 100 to Player512 for 1 seconds]
+[09:27:50] [Client thread/INFO]: [CHAT] Given Hunger (ID 17) * 100 to Player512 for 1 seconds
+[09:28:04] [Server thread/INFO]: [Player512: Given Hunger (ID 17) * 100 to Player512 for 10 seconds]
+[09:28:04] [Client thread/INFO]: [CHAT] Given Hunger (ID 17) * 100 to Player512 for 10 seconds
+[09:28:43] [Server thread/INFO]: [Player512: Set own game mode to Survival Mode]
+[09:28:43] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:28:55] [Server thread/INFO]: [Player512: Set own game mode to Creative Mode]
+[09:28:55] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:29:02] [Server thread/INFO]: [Player512: Set own game mode to Survival Mode]
+[09:29:02] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:29:09] [Server thread/INFO]: [Player512: Given Hunger (ID 17) * 100 to Player512 for 10 seconds]
+[09:29:09] [Client thread/INFO]: [CHAT] Given Hunger (ID 17) * 100 to Player512 for 10 seconds
+[09:30:04] [Server thread/INFO]: Saving and pausing game...
+[09:30:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:30:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:30:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:30:05] [Server thread/INFO]: Stopping server
+[09:30:05] [Server thread/INFO]: Saving players
+[09:30:05] [Server thread/INFO]: Saving worlds
+[09:30:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:30:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:30:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:30:06] [Server thread/INFO]: Unloading dimension 0
+[09:30:06] [Server thread/INFO]: Unloading dimension -1
+[09:30:06] [Server thread/INFO]: Unloading dimension 1
+[09:30:06] [Client thread/INFO]: Stopping!

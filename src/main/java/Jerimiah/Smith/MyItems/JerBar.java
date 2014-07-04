@@ -1,14 +1,18 @@
 package Jerimiah.Smith.MyItems;
 
-import Jerimiah.Smith.MyCode;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
 import Jerimiah.Smith.MyCode;
 
 public class JerBar extends ItemFood{
@@ -16,6 +20,7 @@ public class JerBar extends ItemFood{
     	super(j,b);
         setUnlocalizedName("jerbar");
         setCreativeTab(MyCode.tabJerMod);
+        setPotionEffect(Potion.moveSpeed.id, 15, 2, 1.0F);
     }
     //load Icons and Textures Properly 
     @SideOnly(Side.CLIENT)
